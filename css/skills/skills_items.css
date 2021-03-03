@@ -19,3 +19,19 @@
 	position: relative;
 	left: calc(100% - 1rem - 64px);
 }
+
+.skills_items.--supervisor {
+	border-color: #00C7C7FF;
+}
+
+.skills_items.--team-builder {
+	border-color: #F00;
+}
+
+.skills_items.--karma {
+	border-color: #FF0;
+}
+
+.skills_items.--calculator {
+	border-color: #2667FFFF;
+}

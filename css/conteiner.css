@@ -7,6 +7,14 @@
 	font-family: "Poppins";
 	font-size: 15px;
 }
+
+body {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
 .conteiner  {
 	display: block;
 	margin: 0 auto;
