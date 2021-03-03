@@ -1,0 +1,9 @@
+.main_title {
+	margin-top: 0;
+	text-align: center;
+	font-weight: 200;
+}
+
+.main_title span {
+	font-weight: 600;
+}

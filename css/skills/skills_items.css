@@ -1,0 +1,21 @@
+.skills_items {
+	border-top: 5px solid #000;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px #000;
+	padding: 1rem;
+	width: 300px;
+	height: 200px;
+}
+
+.skills_items h2 {
+	font-weight: 400;
+}
+
+.skills_items p {
+	font-weight: 200;
+}
+
+.skills_items img {
+	position: relative;
+	left: calc(100% - 1rem - 64px);
+}

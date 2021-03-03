@@ -1,0 +1,14 @@
+/** {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}*/
+:root {
+	font-family: "Poppins";
+	font-size: 15px;
+}
+.conteiner  {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}

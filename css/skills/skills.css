@@ -1,0 +1,40 @@
+.skills {
+	justify-items: center;
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-template-rows: 100px 100px 100px 100px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.skills_items.--supervisor {
+	justify-self: end;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	border-color: #00C7C7FF;
+}
+
+.skills_items.--team-builder {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-color: #F00;
+}
+
+.skills_items.--karma {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 4;
+	border-color: #FF0;
+}
+
+.skills_items.--calculator {
+	justify-self: start;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	border-color: #2667FFFF;
+}
