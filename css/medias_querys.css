@@ -1,4 +1,7 @@
 @media (max-width: 870px) {
+	body {
+		margin-top: 1rem;
+	}
 	.skills {
 		display: flex;
 		flex-direction: column;
@@ -10,6 +13,9 @@
 }
 
 @media (min-width: 870px) {
+	body {
+		height: 100vh;
+	}
 	.skills {
 		display: flex;
 		flex-flow: row wrap;
