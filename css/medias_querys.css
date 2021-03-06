@@ -39,31 +39,23 @@
 
 	.skills_items.--supervisor {
 		justify-self: end;
-		grid-column-start: 1;
-		grid-column-end: 2;
-		grid-row-start: 3;
-		grid-row-end: 5;
+		grid-column: 1 / 2;
+		grid-row: 3 /5;
 	}
 
 	.skills_items.--team-builder {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 4;
+		grid-column: 2 / 3;
+		grid-row: 1 / 4;
 	}
 
 	.skills_items.--karma {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		grid-row-start: 4;
-		grid-row-end: 6;
+		grid-column-start: 2 / 3;
+		grid-row-start: 4 / 6;
 	}
 
 	.skills_items.--calculator {
 		justify-self: start;
-		grid-column-start: 3;
-		grid-column-end: 4;
-		grid-row-start: 3;
-		grid-row-end: 5;
+		grid-column-start: 3 / 4;
+		grid-row-start: 3 / 5;
 	}
 }
